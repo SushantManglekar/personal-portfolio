@@ -129,7 +129,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Python Developer - Intern",
+    title: "Python Developer",
     company_name: "Anveshak Technology and Knowledge solutions",
     icon: "https://d1hbpr09pwz0sk.cloudfront.net/logo_url/anveshak-technology-and-knowledge-solutions-3540f4be",
     iconBg: "#E6DEDD",
