@@ -30,6 +30,24 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import python from "./python-svgrepo-com.svg";
+import sklearn from "./Scikit_learn.svg";
+import tensorflow from "./TensorFlow_logo.svg";
+import keras from "./Keras.png";
+import numpy from "./NumPy.png";
+import pandas from "./Pandas.svg";
+import matplotlib from "./matplotlib.svg";
+import seaborn from "./seaborn.svg";
+import django from "./Django REST.svg";
+import flask from "./Flask.svg";
+import sql from "./Sql.svg";
+import postgresql from "./Postgresql.svg";
+import mysql from "./mysql.svg";
+import aws from "./aws.svg";
+import azure from "./azure.png";
+import fastapi from "./fastapi.png";
+import mrs from "./mrs.webp"
+import chatApp from "./chat-app.png"
 export {
   logo,
   backend,
@@ -59,4 +77,22 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  sklearn,
+  tensorflow,
+  keras,
+  numpy,
+  pandas,
+  matplotlib,
+  seaborn,
+  django,
+  flask,
+  sql,
+  postgresql,
+  mysql,
+  aws,
+  azure,
+  fastapi,
+  mrs,
+  chatApp
 };

@@ -1,28 +1,49 @@
 import {
-  mobile,
+  logo,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  typescript,
-  html,
+  github,
+  menu,
+  close,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  typescript,
+  threejs,
   meta,
+  shopify,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  python,
+  sklearn,
+  tensorflow,
+  numpy,
+  pandas,
+  matplotlib,
+  seaborn,
+  django,
+  flask,
+  sql,
+  postgresql,
+  mysql,
+  aws,
+  azure,
+  fastapi,
+  mrs,
+  chatApp,
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +63,101 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Machine Learning",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "MLOps/DevOps",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AWS",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "TensorFlow",
+    icon: tensorflow,
+  },
+
+  {
+    name: "Django",
+    icon: django,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "FastAPI",
+    icon: fastapi,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Python Developer - Intern",
+    company_name: "Anveshak Technology and Knowledge solutions",
+    icon: "https://d1hbpr09pwz0sk.cloudfront.net/logo_url/anveshak-technology-and-knowledge-solutions-3540f4be",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2022 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built scalable web applications with Django, ensuring performance and reliability.",
+      "Optimized PostgreSQL and MySQL schemas, improving query efficiency.",
+      "Streamlined deployments with Django ORM migrations.",
+      "Developed RESTful APIs for seamless front-end and back-end communication.",
+      "Enhanced security with robust authentication and authorization.",
+      "Collaborated with teams to deliver high-quality solutions, meeting client needs.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Mavenberg Innovations",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIrfuV2HUftfaJs3YrV-as3z77jQ6LgOH2w&s",
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated ETL processes, reducing migration time by 30%.",
+      "Achieved 95% data accuracy using SQL and AI-driven validation.",
+      "Deployed scalable solutions on AWS with Docker, cutting costs by 20%.",
+      "Enhanced model retraining efficiency by 50% with SageMaker.",
+      "Built secure, high-performance APIs using Flask and Django.",
+      "Optimized e-commerce backend, boosting load times and user experience.",
+      "Collaborated with teams to accelerate project timelines by 20%.",
+      "Delivered zero-defect solutions with 100% client satisfaction.",
     ],
   },
 ];
@@ -198,67 +191,91 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Price Prediction App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a full-stack prediction system using Python, Flask, React, and PostgreSQL, with a strong focus on Exploratory Data Analysis (EDA) and feature engineering. Implemented DVC for model versioning and MLflow for experiment tracking, ensuring reproducibility and performance monitoring. Deployed the solution on AWS, integrating CI/CD pipelines for automated model updates, version control, and cloud scalability.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TensorFlow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Sklearn",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MLFlow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CI/CD",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/SushantManglekar/car-price-prediction-system.git",
   },
   {
-    name: "Job IT",
+    name: "Hybrid Recommender System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a Hybrid Recommender System using the MovieLens dataset, integrating backend development with FastAPI for APIs and Docker for containerization Implemented CI/CD pipelines with GitHub Actions for automated testing and deployment. Utilized DVC for versioning datasets and S3 bucket for remote storage management. Applied MLFlow for experiment tracking, ensuring scalability, maintainability, and seamless deployment to AWS.",
     tags: [
       {
-        name: "react",
+        name: "FastAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "TensorFlow",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
+        name: "MLFlow",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CI/CD",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mrs,
+    source_code_link:
+      "https://github.com/SushantManglekar/hybrid-recommender-system.git",
+  },
+  {
+    name: "Real time chat app",
+    description:
+      "Frontend (React): Interactive UI with WebSocket integration for real-time updates. Backend (Django Channels): Manages WebSocket connections, message routing, and user authentication.Database: Message storage using Django ORM, with Redis for WebSocket connection management. Features: Real-time messaging, typing indicators, and user presence tracking.",
+
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebScokets",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatApp,
+    source_code_link:
+      "https://github.com/SushantManglekar/Real-time-chat-app-with-Django.git",
   },
 ];
 
